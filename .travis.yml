@@ -9,7 +9,6 @@ env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
 install:
   - pip install unittest2
   - pip3 install --upgrade pip
-  - pip3 install sqlite3
   - pip3 install SQLAlchemy
 script: python test_point_manager.py
 
