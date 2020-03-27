@@ -2,7 +2,6 @@ language: python
 language: java
 python:
   - "2.7"
-script:
-  - pytest
+
 
 
